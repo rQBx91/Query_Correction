@@ -6,7 +6,7 @@ Project done as part of Information Retrival course at Urmia University.
 
 Extract resource files:
 ```bash
-tar xvf resources.tar.xz --directory=./resources
+tar xvf resources.tar.xz
 ```
 
 Run docker version:
