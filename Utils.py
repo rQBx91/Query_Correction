@@ -25,7 +25,7 @@ def Load() -> InMemIndex:
 def checkIndex():
     if os.path.exists(scriptPath+'/resources/Index.pickle') and\
           os.path.exists(scriptPath+'/resources/FrequencyIndex.pickle') and\
-              scriptPath+'/resources/VocabularyIndex.pickle':
+              os.path.exists(scriptPath+'/resources/VocabularyIndex.pickle'):
         return True
     return False
 
