@@ -5,17 +5,20 @@ A simple and fairly accurate query correction system for persian language built 
 Project done as part of Information Retrival course at Urmia University.
 
 Extract resource files:
+
 ```bash
 tar xvf resources.tar.xz
 ```
 
 Run docker version:
+
 ```bash
 sudo docker pull rqbx91/query-correction:latest
 sudo docker run -d -p 80:80 rqbx91/query-correction:latest
 ```
 
 Build docker image:
+
 ```bash
 sudo docker build -t query-correction:latest .
 sudo docker run -d -p 80:80 query-correction:latest
